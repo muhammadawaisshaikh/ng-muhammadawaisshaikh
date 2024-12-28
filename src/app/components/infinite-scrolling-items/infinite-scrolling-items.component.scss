@@ -1,0 +1,17 @@
+.container {
+    overflow: hidden;
+}
+
+// horizontal 
+.sliding-content {
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}

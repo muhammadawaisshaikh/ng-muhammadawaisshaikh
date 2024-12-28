@@ -1,4 +1,12 @@
 <div class="banner">
     <h1 class="font-dm-serif-display">Hi, I am Awais</h1>
     <h2>Technology Enthusiast</h2>
+
+    <app-infinite-scrolling-items>
+        <div class="skills">
+            @for (skill of skills; track $index; let i = $index) {
+                <p><strong>#</strong>{{skill}}</p>
+            }
+        </div>
+    </app-infinite-scrolling-items>
 </div>
