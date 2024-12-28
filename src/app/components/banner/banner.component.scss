@@ -1,0 +1,13 @@
+@import '../../../assets/scss/mixins.scss';
+
+.banner {
+    text-align: center;
+    h1 {
+        font-size: 10rem;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+    }
+}
