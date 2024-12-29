@@ -8,6 +8,10 @@ export class GsapGlobalService {
 
   constructor() { }
 
+  registerGSAP() {
+    gsap.registerPlugin();
+  }
+
   /**
    * Animate the covers to reveal the content
    */

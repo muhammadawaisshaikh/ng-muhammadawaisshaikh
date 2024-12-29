@@ -13,13 +13,15 @@ export class GsapTextService {
    * @param className 
    */
   textAnimate(className: string): void {
-    gsap.from(className, {
-      opacity: 0,
-      y: 100,
-      duration: 2.5,
-      stagger: 0.5,
-      ease: 'power2.out'
-    });
+    if (className) {
+      gsap.from(className, {
+        opacity: 0,
+        y: 100,
+        duration: 2.5,
+        stagger: 0.5,
+        ease: 'power2.out'
+      });
+    }
   }
 
   /**
